@@ -158,7 +158,7 @@ module.exports = function (src, playerCount, isSealed, isChaos) {
       }
     }
   }
-  if (isSealed) {
+  if (true) {
     var count = playerCount
     var size = 90
   } else {
@@ -167,7 +167,7 @@ module.exports = function (src, playerCount, isSealed, isChaos) {
   }
   var pools = []
 
-  if (isCube || isSealed) {
+  if (isCube || true) {
     if (!(isChaos)) {
       while (count--)
         pools.push(isCube
