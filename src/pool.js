@@ -158,6 +158,7 @@ module.exports = function (src, playerCount, isSealed, isChaos) {
       }
     }
   }
+
   if (true) {
     var count = playerCount
     var size = 90
@@ -166,6 +167,7 @@ module.exports = function (src, playerCount, isSealed, isChaos) {
     size = src.cards
   }
   var pools = []
+
 
   if (isCube || true) {
     if (!(isChaos)) {
